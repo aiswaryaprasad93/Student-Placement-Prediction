@@ -39,10 +39,13 @@ if st.button("Predict"):
     'specialisation',
     'mba_p'
 ])
+       prediction = model.predict(student)[0]
 
-prediction = model.predict(student)[0]
+       
+       if prediction == 1:
+                  st.success("Prediction: Placed")
 
-if prediction == 1:
-    st.success("Prediction: Placed")
-else:
-    st.error("Prediction: Not Placed")
+       else:
+              st.error("Prediction: Not Placed")
+    
+       
