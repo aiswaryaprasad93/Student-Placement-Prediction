@@ -31,9 +31,9 @@ if st.button("Predict"):
         'workex','etest_p','specialisation','mba_p'
     ])
 
-    prediction = model.predict(student)[0]
+        prediction = model.predict(student)[0]
 
-    if prediction == 1:
+       if prediction == 1:
         st.success("Prediction: Placed")
-    else:
+       else:
         st.error("Prediction: Not Placed")
