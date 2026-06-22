@@ -31,12 +31,10 @@ Student-Placement-Prediction/
 ├── requirements.txt
 └── README.md
 
-## How to Run
+## Live Demo
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+🔗 Student Placement Prediction App:
+https://student-placement-prediction-ikyholjwhsjyectylzjr7g.streamlit.app
 
 ## Output
 - 🎉 Prediction: Placed
