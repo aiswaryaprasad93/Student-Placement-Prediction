@@ -46,5 +46,5 @@ if st.button("Predict"):
        else:
               st.error("❌ Prediction: Not Placed")
 
-       st.write(f"Placement Probability: {probability*100:.2f}%")
+      
       
