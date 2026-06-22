@@ -3,6 +3,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 model = joblib.load("placement_model.pkl")
+st.write(type(model))
 
 st.title("Student Placement Prediction")
 
