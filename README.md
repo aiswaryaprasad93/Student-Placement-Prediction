@@ -19,6 +19,9 @@ This project predicts whether a student is likely to be placed based on academic
 ## Machine Learning Algorithm
 - Logistic Regression
 
+## Accuracy
+- 88.37%
+
 ## Dataset
 - Placement_Data_Full_Class.csv
 
