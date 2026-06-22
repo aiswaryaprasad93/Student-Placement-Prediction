@@ -41,8 +41,6 @@ if st.button("Predict"):
 ])
        prediction = model.predict(student)[0]
 
-       probability = model.predict_proba(student)[0][1]
-
        if prediction == 1:
               st.success("🎉 Prediction: Placed")
        else:
